@@ -1,0 +1,7 @@
+env = $loader.loadprim("std@get_env",1);
+$print(env("USER"));
+$print("\n");
+
+$print("hello neko world !\n");
+$exports.x = 33;
+$exports.f = function(x) { return x * 2 + 1; }
